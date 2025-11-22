@@ -23,7 +23,6 @@
             "^Cargo\.lock$"
             "^Cargo\.toml$"
             "^README\.md$"
-            # "^.data"
           ];
           doCheck = false;
           cargoLock.lockFile = ./Cargo.lock;
